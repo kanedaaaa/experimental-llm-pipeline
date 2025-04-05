@@ -1,7 +1,7 @@
 import argparse
 import sys
 import time
-from nllb.translator import Translator
+from translator import Translator
 
 def main():
     parser = argparse.ArgumentParser(description="Real-time English-Georgian translator")
